@@ -280,7 +280,7 @@
         font-size: 1.1rem;
         margin-bottom: 1.5rem;
     }
-    
+
     form {
         display: flex;
         align-items: center;
@@ -340,7 +340,7 @@
         padding: 2rem 0;
     }
 
-    .contact-container input, 
+    .contact-container input,
     .contact-container textarea {
         width: 30%;
         padding: .5rem 1rem;
@@ -362,7 +362,7 @@
         border-radius: 20px;
         border: none;
     }
-    
+
     .contact-container input[type="submit"]:hover {
         transform: scale(1.1);
     }
@@ -451,7 +451,7 @@
         }
 
         .main-banner h1 {
-    font-size: 2rem;
+            font-size: 2rem;
         }
 
         .pricing-container h2 {
@@ -472,12 +472,12 @@
 
         .service {
             width: 50%;
-            margin:1rem 0;
+            margin: 1rem 0;
             padding: 3rem 3rem;
         }
 
         .plans-container {
-           flex-direction: column;
+            flex-direction: column;
         }
 
         .plan {
@@ -492,28 +492,30 @@
             justify-content: center;
         }
 
-        .search-container h2{
+        .search-container h2 {
             font-size: 2rem;
         }
 
-        .contact-container input, 
-    .contact-container textarea {
+        .contact-container input,
+        .contact-container textarea {
             width: 50%;
         }
     }
 
     @media (max-width: 576px) {
-        html, 
+
+        html,
         body {
-        overflow-x: hidden;
+            overflow-x: hidden;
         }
-        
+
         .container {
             width: 500px;
             margin: 0 auto;
         }
+
         .container-header {
-             margin: 2rem 0px 0px 0px;
+            margin: 2rem 0px 0px 0px;
         }
 
         .nav-header {
@@ -536,19 +538,19 @@
 
         .plans-container {
             flex-direction: column;
-         }
- 
-         .plan {
-             width: 90%;
-             max-width: 100%;
-             padding: 1rem 2rem;
-         }
- 
-         .plan ul {
-             width: 100%;
-             margin: 0 auto;
-             justify-content: center;
-         }
+        }
+
+        .plan {
+            width: 90%;
+            max-width: 100%;
+            padding: 1rem 2rem;
+        }
+
+        .plan ul {
+            width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+        }
 
         .search-container p {
             font-size: 1rem;
@@ -561,10 +563,9 @@
             width: 425px;
             margin: 0 auto;
         }
+
         .main-banner p {
             text-align: center;
         }
 
     }
-
-    
