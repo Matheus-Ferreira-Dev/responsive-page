@@ -444,7 +444,7 @@
         }
     }
 
-    @media (max-width: 764px) {
+    @media (max-width: 768px) {
         .container {
             margin: 0 auto;
             width: 700px;
@@ -503,8 +503,68 @@
     }
 
     @media (max-width: 576px) {
+        html, 
+        body {
+        overflow-x: hidden;
+        }
+        
         .container {
             width: 500px;
             margin: 0 auto;
         }
+        .container-header {
+             margin: 2rem 0px 0px 0px;
+        }
+
+        .nav-header {
+            flex-direction: column;
+            padding: 0;
+        }
+
+        .services {
+            width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .service {
+            width: 70%;
+            margin: 1rem 0;
+            padding: 1rem;
+        }
+
+        .plans-container {
+            flex-direction: column;
+         }
+ 
+         .plan {
+             width: 90%;
+             max-width: 100%;
+             padding: 1rem 2rem;
+         }
+ 
+         .plan ul {
+             width: 100%;
+             margin: 0 auto;
+             justify-content: center;
+         }
+
+        .search-container p {
+            font-size: 1rem;
+            padding: 0 2rem;
+        }
     }
+
+    @media (max-width: 425px) {
+        .container {
+            width: 425px;
+            margin: 0 auto;
+        }
+        .main-banner p {
+            text-align: center;
+        }
+
+    }
+
+    
