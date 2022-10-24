@@ -374,3 +374,137 @@
         padding: 2rem;
         color: #fff;
     }
+
+    /* notebooks menores */
+    @media (max-width: 1024px) {
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .services {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        .service {
+            width: 50%;
+            flex-wrap: wrap;
+            width: 250px;
+            /* padding: 2rem; */
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service h3 {
+            font-size: 1.3rem;
+        }
+
+        .pricing-container h2 {
+            font-size: 3rem;
+        }
+
+        .plans-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 95%;
+            margin: 0 auto;
+            /* flex-direction: column; */
+        }
+
+        .plan {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            flex: 3;
+            padding: 0;
+            margin: 0 .5rem;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .container {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .services {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        .plans-container {
+            width: 80%;
+            /* flex-direction: column; */
+        }
+
+        .plans-container h2 {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 764px) {
+        .container {
+            margin: 0 auto;
+            width: 700px;
+        }
+
+        .main-banner h1 {
+    font-size: 2rem;
+        }
+
+        .pricing-container h2 {
+            font-size: 2rem;
+        }
+
+        .main-banner h1 {
+            text-align: center;
+        }
+
+        .services {
+            width: 80%;
+            margin: 0 auto;
+            justify-content: center;
+            flex-direction: column;
+            width: 90%;
+        }
+
+        .service {
+            width: 50%;
+            margin:1rem 0;
+            padding: 3rem 3rem;
+        }
+
+        .plans-container {
+           flex-direction: column;
+        }
+
+        .plan {
+            width: 90%;
+            max-width: 100%;
+            padding: 1rem 2rem;
+        }
+
+        .plan ul {
+            width: 70%;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .search-container h2{
+            font-size: 2rem;
+        }
+
+        .contact-container input, 
+    .contact-container textarea {
+            width: 50%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .container {
+            width: 500px;
+            margin: 0 auto;
+        }
+    }
